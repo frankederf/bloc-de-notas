@@ -27,11 +27,13 @@ Permite escribir, guardar y eliminar notas que se almacenan en el navegador usan
 
 ## 📂 Estructura del proyecto
 
-📦 Bloc-de-Notas
-├── index.html # Página principal
-├── style.css # Estilos del bloc de notas
-├── f.js # Lógica en JavaScript
-└── asset/ # Carpeta de imágenes (fondo)
+📦 BLOC DE NOTAS
+├── asset/       # Carpeta de imágenes (fondos, capturas, íconos, etc.)
+├── f.js         # Lógica en JavaScript
+├── index.html   # Página principal
+├── README.md    # Documentación del proyecto
+└── style.css    # Estilos del bloc de notas
+
 
 
 ---
@@ -57,4 +59,5 @@ Permite escribir, guardar y eliminar notas que se almacenan en el navegador usan
 👨‍💻 Autor
 
 Desarrollado por Frank Flores
+
 © 2025 - Todos los derechos reservados.
