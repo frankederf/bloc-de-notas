@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image: url(asset/pexels-romka-977155-2034373.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* 🔹 Mantiene el fondo fijo */
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejorar la legibilidad */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+h1 {
+    color: #0c0c0b;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+textarea {
+    width: 96%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-bottom: 20px; /* Espacio debajo de los botones */
+}
+button {
+
+    background-color: #4CAF50; /* Color de fondo normal */
+    color: white;
+    padding: 10px 20px;
+    
+    border: none;
+    cursor: pointer;
+    
+}
+
+  
+
+#saveButton {
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#saveButton:hover {
+    background-color: #218838; /* Verde más oscuro */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+#clearButton {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#clearButton:hover {
+    background-color: #c82333; /* Rojo más oscuro */
+    transform: scale(1.05); /* Efecto de crecimiento */
+}
+
+
+.delete-btn {
+    font-size: 12px; /* Tamaño de la X */
+    padding: 2px 6px; /* Espaciado interno */
+    margin-left: 10px; /* Espaciado respecto al texto */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: red; /* Color rojo para destacar */
+}
+
+.delete-btn:hover {
+    color: darkred;
+    transform: scale(1.2);
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Cada nota como una tarjetita */
+li {
+    background-color: rgba(255, 255, 255, 0.8); /* 🔹 Blanco translúcido */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* 🔹 Sombra tipo post-it */
+    backdrop-filter: blur(5px); /* 🔹 Efecto vidrio esmerilado */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto hover para darle vida */
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 90px;
+   
+    color: rgb(109, 102, 102);
+    font-size: 14px;
+    border-radius: 8px 8px 0 0; /* Bordes redondeados arriba */
+}
+
